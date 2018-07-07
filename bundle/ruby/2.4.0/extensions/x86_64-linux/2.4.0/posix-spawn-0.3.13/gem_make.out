@@ -1,0 +1,15 @@
+current directory: /worker/bundle/ruby/2.4.0/gems/posix-spawn-0.3.13/ext
+/usr/bin/ruby -r ./siteconf20180703-1-xa4sps.rb extconf.rb
+creating Makefile
+
+current directory: /worker/bundle/ruby/2.4.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" clean
+
+current directory: /worker/bundle/ruby/2.4.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR="
+compiling posix-spawn.c
+linking shared-object posix_spawn_ext.so
+
+current directory: /worker/bundle/ruby/2.4.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" install
+install -m 0755 posix_spawn_ext.so ./.gem.20180703-1-18sypki

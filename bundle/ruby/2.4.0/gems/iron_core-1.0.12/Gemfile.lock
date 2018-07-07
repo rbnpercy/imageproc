@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    iron_core (1.0.12)
+      rest (>= 3.0.8)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    minitest (5.9.1)
+    net-http-persistent (2.9.4)
+    netrc (0.11.0)
+    power_assert (0.3.1)
+    rake (11.3.0)
+    rest (3.0.8)
+      net-http-persistent (>= 2.9.1, < 3)
+      netrc
+    test-unit (3.2.1)
+      power_assert
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  iron_core!
+  minitest
+  rake
+  test-unit
+
+BUNDLED WITH
+   1.13.3
